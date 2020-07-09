@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/bg"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:src="@mipmap/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="15dp"
+        android:textColor="#03A9F4"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView"
+        android:textSize="24dp"
+        android:text="Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak."/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="More Info"
+        android:id="@+id/info"/>
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/info"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Next"
+            android:id="@+id/nxt"/>
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/nxt"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            style="?android:progressBarStyleHorizontal"
+            android:progress="80"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:progressDrawable="@drawable/circle"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">First</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="enter_your_password">Enter your Password</string>
+
+    <string-array name="ProgrammingLanguages">
+        <item>C++</item>
+        <item>C#</item>
+        <item>JAVA</item>
+        <item>JAVASCRIPT</item>
+        <item>PYTHON</item>
+        <item>RUBY</item>
+        <item>KOTLIN</item>
+        <item>MYSQL</item>
+    </string-array>
+    <string-array name="description">
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+        <item>This is the description</item>
+    </string-array>
+</resources>

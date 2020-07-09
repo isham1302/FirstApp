@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/logo"
+        android:src="@mipmap/logo" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/logo"
+        android:id="@+id/name"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="@string/enter_your_username"
+        android:textColorHint="#03A9F4"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_your_password"
+        android:textColorHint="#03A9F4"
+        android:id="@+id/pass"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pass"
+        android:text="Login"
+        android:background="#03A9F4"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:id="@+id/login"/>
+
+</RelativeLayout>
